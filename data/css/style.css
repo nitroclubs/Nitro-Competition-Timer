@@ -1,0 +1,164 @@
+
+.header {
+    border: 0px solid black;
+    width: 100%;
+    position: relative;
+    background-color: #047BCA;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    margin: 30px 0;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo img {
+    /* width: 80px; */
+    width: 100;
+    /* height: 92 */
+}
+
+.header-text {
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#divTimerTotalTime {
+    font-family: "Poppins", sans-serif;
+    font-size: 7rem;
+    font-weight: 700;
+    text-shadow: 2px 2px #f8a5c2;
+    background-color:  dodgerblue;
+    color: #f92672;
+    /* width: 600px; */
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#divElapsedTimes {
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    text-shadow: 2px 2px grey;
+    background-color:  dodgerblue;
+    color:  whitesmoke;
+    /* width: 600px; */
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+/* #divStartYourRobot { */
+#trStartYourRobotNow {
+width: 100%; 
+background-color:lawngreen;
+text-align: center;
+color:white;
+font-size:200%;
+/* font-size: 3rem;
+font-weight: 300; */
+}
+
+#tr1TblFinalTime {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Fantasy;
+    font-size: 3rem;
+    font-weight: 100;
+    text-shadow: 4px 4px grey;
+    background-color:  dodgerblue;
+    color: whitesmoke;
+    /* color: #f92672; */
+    /* width: 600px; */
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#tr2TblFinalTime {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Fantasy;
+    font-size: 5rem;
+    font-weight: 500;
+    text-shadow: 4px 4px grey;
+    background-color:  dodgerblue;
+    color: whitesmoke;
+    /* color: #f92672; */
+    /* width: 600px; */
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#trBestLapTimeTxtTblFinalTime, #trBestLapTimeTblFinalTime{
+    /* font-family: "Poppins", sans-serif; */
+    font-family: Fantasy;
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 3px 3px grey;
+    background-color:  dodgerblue;
+    color: whitesmoke;
+    /* color: #f92672; */
+    /* width: 600px; */
+    width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#spTotalElapsedTime{
+    font-family: "Poppins", sans-serif;
+    font-size: 7rem;
+    font-weight: 700;
+    text-shadow: 2px 2px grey;
+    background-color:  dodgerblue;
+    color:  whitesmoke;
+    /* width: 600px; */
+     width: 100%;
+    text-align: center;
+    margin: 40px auto;
+}
+
+/* 
+#spTotalElapsedTime{
+    width: 100%; 
+background-color:lawngreen;
+text-align: center;
+color:white;
+font-size:200%;
+} */
+
+/* #trlap2Time{
+    height: 10px;
+    background-color:  red;
+} */
+
+
+#lap1ElapsedTime, #lap2ElapsedTime{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    text-shadow: 2px 2px grey;
+    /* background-color:  dodgerblue; */
+    background-color:  lightblue;
+    color:  whitesmoke;
+    /* width: 600px; */
+     width: 100%;
+    text-align: center;
+    /* margin: 10px auto; */
+}
+
+
+
+#btnStartNewRound{
+    color: dodgerblue;
+    background-color:lawngreen;
+}
